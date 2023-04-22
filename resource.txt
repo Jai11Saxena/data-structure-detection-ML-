@@ -1,0 +1,39 @@
+1-If the array is sorted or there are 2 pointers.
+
+If the array is sorted then the binary search should be the first thing that should come to your mind and there is a high probability 
+that you will get to a solution with that.
+
+
+
+2-If you are given a linked list
+
+Linked List is my favourite Data Structure and after solving 100+ questions on Linked List I have realized that the two-pointer 
+(in which you have a slow pointer that moves one step and a fast pointer that moves two steps) method solves the problem.
+
+
+3-If asked for top/least K items
+
+If you see K you should immediately think of a Heap. 
+If it is a direct question then you can easily figure it out but sometimes the question is in a form of a story like top 3 from 10 then heap can be helpful.
+
+
+4-frequency/ duplicates
+
+In these cases, hashmaps come handy because you can store key-value pairs at better complexity as compared to storing in an array.
+
+
+
+5-If asked for maximum/ minimum subarray/ subset.In such cases, Dynamic Programming comes handy.
+
+
+
+6-If permutations or subsets.Recursion or BackTracking can be helpful in such cases.
+
+
+
+7-Know what operations you need to be able to perform (like traversal, retrieval, deletion, insertion, updating), 
+what operations you’ll perform frequently (insertion?), 
+what operations you won’t need at all (deletion?). You’ll need this so you can 
+(a) identify if a data structure meets your needs at all; 
+(b) identify if you can combine it with another to meet your needs; 
+and (c) know if it’s going to be fast or slow for your use case.
